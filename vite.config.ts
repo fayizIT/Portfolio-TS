@@ -1,10 +1,25 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import tailwindcss from 'tailwindcss';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   server: {
-    port: 3000,
+    port: 3000, // Set your desired port here
   },
-  plugins: [react()],
-})
+  plugins: [
+    {
+      name: 'tailwindcss',
+      ...tailwindcss({
+        content: [
+          "./src/**/*.{js,jsx,ts,tsx}",
+        ],
+        theme: {
+          extend: {},
+          fontFamily: {
+            signature: ["Great Vibes"],
+          },
+        },
+        plugins: [],
+      }),
+    },
+  ],
+});

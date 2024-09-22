@@ -45,25 +45,29 @@ const Skill = () => {
       id: 4,
       src: bootstrap,
       title: "Bootstrap",
-      style: "shadow-violet-500",
+
+      style: "shadow-purple-600",
     },
     {
       id: 5,
       src: react,
       title: "React",
-      style: "shadow-blue-600",
+
+      style: "shadow-cyan-400",
     },
     {
       id: 6,
       src: mongoDb,
       title: "MongoDB",
-      style: "shadow-green-600",
+
+      style: "shadow-green-500",
     },
     {
       id: 7,
       src: expressjs,
       title: "Express.js",
-      style: "shadow-yellow-600",
+
+      style: "shadow-gray-500",
     },
     {
       id: 8,
@@ -75,79 +79,92 @@ const Skill = () => {
       id: 10,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-600",
+
+      style: "shadow-gray-700",
     },
     {
       id: 11,
       src: Typescript,
       title: "Typescript",
-      style: "shadow-blue-500",
+
+      style: "shadow-blue-600",
     },
     {
       id:12,
       src: NextJs,
       title: "Next Js",
-      style: "shadow-red-500"
+
+      style: "shadow-black"
     },
     {
       id:13,
       src: NestJs,
       title: "Nest Js",
-      style:"shadow-gray-500"
+
+      style:"shadow-red-600"
     },
     {
       id: 14,
       src: CLanguage,
       title: "C Language",
-      style: "shadow-blue-600",
+
+      style: "shadow-blue-700",
     },
     {
       id: 15,
       src: java,
       title: "Java",
-      style: "shadow-red-400",
+
+      style: "shadow-orange-600",
     },
     {
       id: 16,
       src: aws,
       title: "aws",
-      style: "shadow-red-400",
+
+      style: "shadow-yellow-600",
     },
     {
       id: 17,
       src: redux,
       title: "Redux",
-      style: "shadow-violet-500",
+
+      style: "shadow-purple-700",
     },
     {
       id: 18,
       src: Git,
       title: "Git",
-      style: "shadow-red-500",
+
+      style: "shadow-orange-600",
     },
     {
       id: 19,
       src: PostgreSQL,
       title: "PostgreSQL",
-      style: "shadow-blue-500",
+
+      style: "shadow-blue-400",
     },
     {
       id: 20,
       src: Tailwind,
       title: "Tailwind",
-      style: "shadow-green-500",
+
+      style: "shadow-teal-400",
     },
     {
       id: 21,
       src: Swagger,
       title: "Swagger",
-      style: "shadow-green-500",
+
+      style: "shadow-emerald-400",
     },
     {
       id:22,
       src:Jest,
       title: "Jest",
-      style: "shadow-red-500"
+
+      style: "shadow-red-600"
     }
 
   ];

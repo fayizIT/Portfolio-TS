@@ -2,34 +2,34 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div id='Contact' className='w-full min-h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
-      <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto'>
-        <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
-          <p className='py-6'>Submit the form below to get in touch with me</p>
+    <div id='Contact' className='w-full min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 p-8 text-white'>
+      <div className='flex flex-col justify-center max-w-screen-lg mx-auto'>
+        <div className='text-center mb-12'>
+          <h2 className='text-5xl font-bold inline-block border-b-4 border-cyan-500 pb-2'>Contact</h2>
+          <p className='text-xl mt-6 text-gray-300'>Get in touch with me</p>
         </div>
         <div className='flex justify-center items-center'>
-          <form action='https://getform.io/f/4aebdeac-b6b4-43ca-a992-45b1644797e1' method="POST" className='flex flex-col w-full md:w-1/2'>
+          <form action='https://getform.io/f/4aebdeac-b6b4-43ca-a992-45b1644797e1' method="POST" className='flex flex-col w-full md:w-2/3 lg:w-1/2'>
             <input
               type="text"
               name="name"
-              placeholder='Enter your name'
-              className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none mb-4'
+              placeholder='Your name'
+              className='p-3 bg-gray-700 border-2 border-gray-600 rounded-lg text-white focus:outline-none focus:border-cyan-500 mb-6 transition duration-300'
             />
             <input
-              type="text"
+              type="email"
               name="Email"
-              placeholder='Enter your Email'
-              className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none mb-4'
+              placeholder='Your email'
+              className='p-3 bg-gray-700 border-2 border-gray-600 rounded-lg text-white focus:outline-none focus:border-cyan-500 mb-6 transition duration-300'
             />
             <textarea
               name="message"
-              placeholder='Enter your message'
-              rows={10}
-              className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none mb-4'
+              placeholder='Your message'
+              rows={8}
+              className='p-3 bg-gray-700 border-2 border-gray-600 rounded-lg text-white focus:outline-none focus:border-cyan-500 mb-6 transition duration-300 resize-none'
             />
-            <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 mx-auto flex item-center rounded-md hover:scale-110 duration-300'>
-              Let's talk
+            <button className='text-white bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:from-cyan-600 hover:to-blue-700 transition duration-300 shadow-lg'>
+              Send Message
             </button>
           </form>
         </div>

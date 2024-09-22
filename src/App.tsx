@@ -1,7 +1,7 @@
 import React from "react";
-// import About from "./Components/About";
-// import Home from "./Components/Home";
-// import Navbar from "./Components/Navbar";
+import About from "./components/About";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 // import SocialLink from "./Components/SocialLink";
 // import Skills from "./Components/Skills";
 // import Contact from "./Components/Contact";
@@ -10,10 +10,10 @@ import React from "react";
 const App: React.FC = () => {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Home />
       <About />
-      <Skills />
+      {/* <Skills />
       <Works />
       <Contact />
       <SocialLink /> */}

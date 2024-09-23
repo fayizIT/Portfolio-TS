@@ -1,4 +1,3 @@
-import React from 'react';
 import freshHubImage from '../projects/fresh Hub project1.png';
 import MernauthImage from '../projects/Mern Auth.png';
 import NetflixImage from '../projects/Netflix.png';
